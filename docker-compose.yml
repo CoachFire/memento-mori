@@ -1,6 +1,6 @@
 services:
   memento-mori:
-    build: .
+    image: ghcr.io/coachfire/memento-mori:latest
     volumes:
       - ./:/app/workspace
       - ./output:/output
